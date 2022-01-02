@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MVVMTodoListApp</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="todo">TODO</string>
+    <string name="cancel">CANCEL</string>
+    <string name="add">ADD</string>
+    <string name="add_a_new_todo_item">Add a New Todo Item</string>
 </resources>

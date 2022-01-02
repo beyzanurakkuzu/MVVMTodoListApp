@@ -24,7 +24,7 @@ abstract class TodoDatabase: RoomDatabase() {
 
         private fun createDatabase(context: Context) =
             Room.databaseBuilder(context.applicationContext,
-                TodoDatabase::class.java, "ShoppingDB.db").build()
+                TodoDatabase::class.java, "TodoDB.db").build()
     }
 
 }
