@@ -18,12 +18,12 @@ class AddTodoItemDialog(context: Context, var addDialogListener: AddDialogListen
         add_tv.setOnClickListener {
             val title= titleEt.text.toString()
             val description=descEt.text.toString()
-            if(title.isEmpty()||description.isEmpty()){
-                Toast.makeText(context, "Please enter all the information", Toast.LENGTH_SHORT).show()
+            if(title.isEmpty()){
+                Toast.makeText(context, "Please enter title the information", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
-            val item= Todo(title, description)
-            addDialogListener.onAddButtonClicked(item)
+            val items= Todo(title, description)
+            addDialogListener.onAddButtonClicked(items)
             dismiss()
         }
         cancel_tv.setOnClickListener {

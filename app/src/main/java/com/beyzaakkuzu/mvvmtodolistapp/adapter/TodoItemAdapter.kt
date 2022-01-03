@@ -9,8 +9,9 @@ import com.beyzaakkuzu.mvvmtodolistapp.domain.model.Todo
 import com.beyzaakkuzu.mvvmtodolistapp.ui.todo_list.TodoViewModel
 import kotlinx.android.synthetic.main.todo_item.view.*
 
-class TodoItemAdapter (var items: List<Todo>,
-                       private val viewModel: TodoViewModel
+class TodoItemAdapter (
+    var items: List<Todo>,
+    private val viewModel: TodoViewModel
 ) : RecyclerView.Adapter<TodoItemAdapter.TodoViewHolder>()
      {
 

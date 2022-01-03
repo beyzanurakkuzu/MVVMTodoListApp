@@ -35,8 +35,8 @@ class TodoActivity() : AppCompatActivity(), KodeinAware {
         })
         fab.setOnClickListener {
             AddTodoItemDialog(this, object : AddDialogListener{
-                override fun onAddButtonClicked(item: Todo) {
-                    viewModel.insert(item)
+                override fun onAddButtonClicked(items: Todo) {
+                    viewModel.insert(items)
                 }
 
             }).show()

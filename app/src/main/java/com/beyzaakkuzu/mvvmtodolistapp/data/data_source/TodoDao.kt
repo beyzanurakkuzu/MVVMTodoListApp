@@ -11,10 +11,10 @@ import com.beyzaakkuzu.mvvmtodolistapp.domain.model.Todo
 @Dao
 interface TodoDao {
     @Insert(onConflict = REPLACE)
-    suspend fun insert(item: Todo)
+    suspend fun insert(items: Todo)
 
     @Delete
-    suspend fun delete(item: Todo)
+    suspend fun delete(items: Todo)
 
     @Query("SELECT * FROM todo_items" )
     fun getAllTodoItems(): LiveData<List<Todo>>

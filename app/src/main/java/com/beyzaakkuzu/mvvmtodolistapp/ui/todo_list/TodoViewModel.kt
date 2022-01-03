@@ -8,11 +8,11 @@ import kotlinx.coroutines.*
 class TodoViewModel(private val repository: TodoRepository
 ): ViewModel() {
 
-    fun insert(item: Todo)= CoroutineScope(Dispatchers.Main).launch {
-        repository.insert(item)
+    fun insert(items: Todo)= CoroutineScope(Dispatchers.Main).launch {
+        repository.insert(items)
     }
-    fun delete(item:Todo)= CoroutineScope(Dispatchers.Main).launch {
-        repository.delete(item)
+    fun delete(items:Todo)= CoroutineScope(Dispatchers.Main).launch {
+        repository.delete(items)
     }
     fun getAllTodoItems() = repository.getAllTodoItems()
 }

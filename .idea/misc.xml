@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/MVVMTodoListApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/MVVMTodoListApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/MVVMTodoListApp/app/src/main/res/layout/activity_todo.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/MVVMTodoListApp/app/src/main/res/layout/activity_todo.xml" value="0.1" />
         <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/MVVMTodoListApp/app/src/main/res/layout/add_dialog_todo_item.xml" value="0.1" />
         <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/MVVMTodoListApp/app/src/main/res/layout/dialog_add_todo_item.xml" value="0.1" />
         <entry key="..\:/Users/Beyzanur AKKUZU/Documents/GitHub/MVVMTodoListApp/app/src/main/res/layout/todo_item.xml" value="0.1" />

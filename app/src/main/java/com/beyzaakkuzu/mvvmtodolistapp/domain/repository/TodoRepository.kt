@@ -5,9 +5,9 @@ import com.beyzaakkuzu.mvvmtodolistapp.domain.model.Todo
 
 class TodoRepository(private val db:TodoDatabase) {
 
-    suspend fun insert(item: Todo)= db.getTodoDao().insert(item)
+    suspend fun insert(items: Todo)= db.getTodoDao().insert(items)
 
-    suspend fun delete(item: Todo)= db.getTodoDao().delete(item)
+    suspend fun delete(items: Todo)= db.getTodoDao().delete(items)
 
     fun getAllTodoItems()= db.getTodoDao().getAllTodoItems()
 }
